@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="begin"><br><br>
+        <div class="main">
+            <h1>Application for permission to date my daughter</h1>
+            <p id="note"><strong>Note: </strong>Form is to be completed at least 21 days prior to date</p>
+            <br>
+            <p id="details">Personal Details</p>
+            <div id="form1">
+                <br>
+                <form id="real-form">
+                    <label>Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name here" required><br><br>
+                    <label>Address:</label>
+                    <input type="text" id="address" placeholder="Enter address here"><br><br>
+                    <label>Email:</label>
+                    <input type="email" id="email" placeholder="Enter email here" required><br><br>
+                    <label>Phone Number:</label>
+                    <input type="number" id="number" placeholder="Enter 10 digit number"><br><br>
+                    <label>IQ:</label>
+                    <input type="number" id="number" placeholder="Enter IQ here"><br><br>
+                    <br>
+                    <label for="radio1">Gender</label><br><br>
+                    <input type="radio" name="radio1" value="male" checked>Male<br>
+                    <input type="radio" name="radio1" value="female">Female<br>
+                    <input type="radio" name="radio1" value="other">Other
+                    <br><br>
+                    <label>Date of Proposed Outing:</label>
+                    <input type="date">
+                </form>
+            </div><br>
+            <div id="form2">
+                <p class="check">Check all that apply</p>
+                <form id="form-checkbox">
+                    <input type="checkbox" id="tattoo" name="tattoo" value="Tattoo">
+                    <label for="tattoo"> I have tattoos and/or piercings</label><br>
+                    <input type="checkbox" id="years" name="years" value="years">
+                    <label for="years"> I am more than 2 years older than my daughter</label><br>
+                    <input type="checkbox" id="panel" name="panel" value="panel">
+                    <label for="panel"> I own a panel van or V8 ute</label><br>
+                    <input type="checkbox" id="work" name="work" value="work" checked>
+                    <label for="work"> I work full-time</label><br>
+                    <input type="checkbox" id="parents" name="parents" value="parents" checked>
+                    <label for="parents"> My parents are rich</label><br>
+                    <input type="checkbox" id="location" name="location" value="location" checked>
+                    <label for="location"> Is the date at a well lit public location</label><br>
+                </form>
+            </div>
+            <br>
+            <div id="dropdown1">
+                <label for="">Political Persuasion:</label>
+                <select name="dropdown" id="">
+                    <option value="left-wing" selected>Left Wing</option>
+                    <option value="right-wing">Right Wing</option>
+                    <option value="conservative">Conservative</option>
+                    <option value="nazi">Nazi</option>
+                </select>
+                <label for="">Education Level Completed:</label>
+                <select name="dropdown" id="">
+                    <option value="left-wing" selected>University</option>
+                    <option value="right-wing">College</option>
+                    <option value="conservative">High School</option>
+                    <option value="nazi">None</option>
+                </select><br><br>
+            </div><br>
+
+            <p id="details">Essay Section</p>
+            <div id="textarea1">
+                <p class="textarea-align">In 50 words or more explain why you want to date my daughter</p>
+                <textarea rows="5" cols="40" class="textarea-align text1">Enter Text Here</textarea>
+
+                <p class="textarea-align">Please upload contact details for 2 references</p>
+                <textarea rows="5" cols="40" class="textarea-align text1">Enter Text Here</textarea>
+
+                <p class="textarea-align upload">Upload Police Clearance Certifiate, Bank Statement and Medical
+                    Certificates
+                    here:</p>
+                <input type="submit" id="submit" name="submit" value="Attach Files">
+            </div><br>
+            <input type="submit" id="submit1" name="submit1" value="Send Your Application">
+        </div>
+    </div>
+
+</body>
+
+</html>
