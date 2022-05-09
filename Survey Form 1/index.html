@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<htm>
+
+    <head>
+        <title>Good Form Vibes</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <h1>Good Vibes Form</h1>
+        <div class="main">
+            <br><br>
+            <p id="par">Tell us something positive that happened to you today.</p><br>
+
+            <form>
+                <label for="name" class="move">Name</label>
+                <input type=" text" id="name" placeholder="Enter your name" required><br><br><br>
+                <label for="email" class="move">Email</label>
+                <input type="email" id="email" placeholder="Enter your email address" required><br><br><br>
+                <label class="moveNumber">On a scale of 1-10, how good was it?</label>
+                <input type="number" id="number" placeholder="Enter a number between 1 and 10"><br><br><br>
+                <label for="dropdown" class="moveNumber1">Where did it happen?</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="home" selected>At home</option>
+                    <option value="commute">On my commute</option>
+                    <option value="work">At wok</option>
+                    <option value="street">On the street</option>
+                    <option value="other">Other</option>
+                </select><br><br><br><br>
+
+
+                <label for="radio1" class="check">At what time of day did it happen?</label>
+                <input type="radio" name="radio1" value="morning" class="radio1">Morning<br>
+                <input type="radio" name="radio1" value="afternoon" id="afternoon" class="radio1">Afternoon<br>
+                <input type="radio" name="radio1" value="evening" id="evening" class="radio1">Evening<br>
+                <br><br><br>
+
+                <label id="text1">What emotions did you experience</label>
+                <input type="checkbox" id="excited" name="excited" value="excited" class="checkboxStyle">
+                <label for="excited"> Excited</label><br>
+                <input type="checkbox" id="humbled" name="humbled" value="humbled" class="checkboxStyle1">
+                <label for="humbled"> Humbled</label><br>
+                <input type="checkbox" id="elated" name="elated" value="elated" class="checkboxStyle1">
+                <label for="elated"> Elated</label><br>
+                <input type="checkbox" id="loved" name="loved" value="loved" class="checkboxStyle1">
+                <label for="loved"> Loved</label><br>
+                <input type="checkbox" id="enthusiastic" name="enthusiastic" value="enthusiastic"
+                    class="checkboxStyle1">
+                <label for="enthusiastic"> Enthusiastic</label><br><br><br>
+
+                <label id="moveIt">Please descrbe your positive experience.</label>
+                <textarea rows="4" cols="30" placeholder="Enter your experience here..."
+                    class="textarea"></textarea><br><br><br>
+
+                <input type="submit" value="Submit" id="submit"><br><br>
+            </form>
+
+        </div>
+
+
+    </body>
+</htm>
